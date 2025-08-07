@@ -1,1 +1,21 @@
+1. Show the output for the following snippet.
+<? php
+$capital=67;
+print(“Variable capital is $capital”);
+print(“Variable CaPiTaL is $CaPiTaL”);
+?>
 
+
+Worked:
+
+<?php
+$capital= 67;
+print("Variable capital is $capital");
+print("Variable capital is $capital");
+?>
+
+Output:
+
+Variable capital is 67Variable capital is 67
+
+=== Code Execution Successful ===
